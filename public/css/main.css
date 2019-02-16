@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -50,8 +50,35 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 body {
   background: #0A0309; }
+
+header {
+  font-family: 'Raleway', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0;
+  position: absolute;
+  z-index: 3; }
+  header nav {
+    -ms-flex-item-align: center;
+        align-self: center; }
+    header nav a {
+      text-decoration: none;
+      color: white;
+      padding: 0 15px;
+      cursor: pointer; }
+      header nav a:hover {
+        border-bottom: 3px solid yellow; }
 
 .top {
   position: relative; }
