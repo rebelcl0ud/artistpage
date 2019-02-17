@@ -33,6 +33,7 @@ header {
 
 .top {
 	position: relative;
+	height: 100vh;
 	.bg-blurred {
 		background-image: linear-gradient(45deg, rgba(10,3,9,1) 0%,rgba(77,10,90,0.33) 67%,rgba(125,185,232,0) 100%),url('/images/theloveinns.jpg');
 		background-size: cover;
@@ -57,5 +58,57 @@ header {
 			font-size: 3em;
 			text-align: center;
 		}
-	} 
+	}
 }
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.bio {
+	color: white;
+	background-color: black;
+	padding: 150px 0;
+	position: relative;
+	z-index: 3;
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	p {
+		width: 50%;
+		line-height: 1.5;
+		padding: 0 50px;
+
+		a {
+			text-decoration: none;
+			color: purple;
+		}
+	}
+	
+	.logo-bio {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 50px;
+
+		img {
+			max-width: 100%;
+			border-radius: 50px;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+

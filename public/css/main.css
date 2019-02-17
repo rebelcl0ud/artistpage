@@ -81,7 +81,8 @@ header {
         border-bottom: 3px solid yellow; }
 
 .top {
-  position: relative; }
+  position: relative;
+  height: 100vh; }
   .top .bg-blurred {
     background-image: linear-gradient(45deg, #0a0309 0%, rgba(77, 10, 90, 0.33) 67%, rgba(125, 185, 232, 0) 100%), url("/images/theloveinns.jpg");
     background-size: cover;
@@ -110,3 +111,46 @@ header {
       font-family: 'Permanent Marker', cursive;
       font-size: 3em;
       text-align: center; }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.bio {
+  color: white;
+  background-color: black;
+  padding: 150px 0;
+  position: relative;
+  z-index: 3; }
+  .bio .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .bio p {
+    width: 50%;
+    line-height: 1.5;
+    padding: 0 50px; }
+    .bio p a {
+      text-decoration: none;
+      color: purple; }
+  .bio .logo-bio {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 50px; }
+    .bio .logo-bio img {
+      max-width: 100%;
+      border-radius: 50px; }
