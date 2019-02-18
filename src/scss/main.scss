@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway:300,400,500,700,900');
 @import 'reset';
 
 *{
@@ -102,9 +102,44 @@ header {
 			border-radius: 50px;
 		}
 	}
-
 }
 
+.media {
+	background: #99EAFE;
+	padding: 150px 0;
+	
+	.title-videos {
+		color: white;
+		background: black;
+		text-transform: uppercase;
+		width: 100%;
+		max-width: 500px;
+		font-size:1.5rem;
+		font-weight: 300;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		padding: 25px;
+		margin: 0 auto;
+	}
+
+	.videos {
+		padding: 80px 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 50px;
+
+		.video {
+			border-radius: 5px;
+			overflow: hidden;
+			height: 300px;
+			
+			iframe {
+				height: 100%;
+			}
+		}
+	}
+
+}
 
 
 
