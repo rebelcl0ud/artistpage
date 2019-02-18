@@ -78,7 +78,7 @@ header {
       padding: 0 15px;
       cursor: pointer; }
       header nav a:hover {
-        border-bottom: 3px solid yellow; }
+        border-bottom: 3px solid #F4B80A; }
 
 .top {
   position: relative;
@@ -156,11 +156,13 @@ header {
       border-radius: 50px; }
 
 .media {
-  background: #99EAFE;
+  background: #F4B80A;
   padding: 150px 0; }
   .media .title-videos {
     color: white;
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
     text-transform: uppercase;
     width: 100%;
     max-width: 500px;
