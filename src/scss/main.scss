@@ -25,7 +25,7 @@ header {
 			padding: 0 15px;
 			cursor: pointer;
 			&:hover {
-				border-bottom: 3px solid #F4B80A;
+				border-bottom: 3px solid #F5B931;
 			}
 		}
 	}
@@ -86,7 +86,7 @@ header {
 
 		a {
 			text-decoration: none;
-			color: purple;
+			color: #D498FE;
 		}
 	}
 	
@@ -104,8 +104,30 @@ header {
 	}
 }
 
+.music {
+	background: #8EA0C6;
+	padding: 150px 0;
+
+	.info-album {
+		display: flex;
+		padding: 0 50px;
+
+		.cover-album {
+			width: 50%;
+			display: flex;
+
+			border-radius: 5px;
+			overflow: hidden;
+		}
+		
+		.album {
+			width: 50%;
+		}
+	}
+}
+
 .media {
-	background: #F4B80A;
+	background: #F5B931;
 	padding: 150px 0;
 	
 	.title-videos {

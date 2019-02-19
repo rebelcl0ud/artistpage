@@ -78,7 +78,7 @@ header {
       padding: 0 15px;
       cursor: pointer; }
       header nav a:hover {
-        border-bottom: 3px solid #F4B80A; }
+        border-bottom: 3px solid #F5B931; }
 
 .top {
   position: relative;
@@ -138,7 +138,7 @@ header {
     padding: 0 50px; }
     .bio p a {
       text-decoration: none;
-      color: purple; }
+      color: #D498FE; }
   .bio .logo-bio {
     width: 50%;
     display: -webkit-box;
@@ -155,8 +155,26 @@ header {
       max-width: 100%;
       border-radius: 50px; }
 
+.music {
+  background: #8EA0C6;
+  padding: 150px 0; }
+  .music .info-album {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 50px; }
+    .music .info-album .cover-album {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border-radius: 5px;
+      overflow: hidden; }
+    .music .info-album .album {
+      width: 50%; }
+
 .media {
-  background: #F4B80A;
+  background: #F5B931;
   padding: 150px 0; }
   .media .title-videos {
     color: white;
