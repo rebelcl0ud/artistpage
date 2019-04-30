@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway:300,400,500,700,900');
 @import 'reset';
 
+
 *{
 	box-sizing: border-box;
 }
@@ -24,6 +25,7 @@ header {
 			color: white;
 			padding: 0 15px;
 			cursor: pointer;
+			transition: all .2s ease-in-out;
 			&:hover {
 				border-bottom: 3px solid #F5B931;
 			}
@@ -249,7 +251,3 @@ footer {
 		}
 	}
 } /* end of footer */
-
-
-
-
